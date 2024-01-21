@@ -3,10 +3,12 @@
 Nazwa skrócona: IrisClassifier
 Nazwa pełna: Iris Flower Classification Web App
 Krótki opis ze wskazaniem celów: Aplikacja internetowa wykorzystująca model uczenia maszynowego do klasyfikacji kwiatów irysów na podstawie pomiarów działek kielicha i płatków. Celem jest dostarczenie użytkownikom interaktywnego narzędzia do przewidywania gatunku irysa oraz wizualizacji cech wejściowych i prognoz modelu.
+
 2. Prawa autorskie:
 Autor: Alicja Koczakowska
 Licencja MIT (Massachusetts Institute of Technology):
 Pozwala na dowolne korzystanie, modyfikowanie, publikowanie, sprzedaż i dystrybucję oprogramowania, pod warunkiem zachowania oryginalnej licencji i informacji o prawach autorskich
+
 3.Specyfikacja wymagań:
 Identyfikator	Nazwa	Opis	Kategoria
 1	SepalLengthCm	Długość działki kielicha w centymetrach	Funkcjonalne
@@ -17,7 +19,7 @@ Identyfikator	Nazwa	Opis	Kategoria
 6	Input Validation	Walidacja wejścia, sprawdzenie poprawności wprowadzonych danych	Niefunkcjonalne
 4. Architektura systemu/oprogramowania:
 
-Architektura rozwoju – stos technologiczny:
+4. Architektura rozwoju – stos technologiczny:
 
 Python (backend)
 Flask (web framework)
@@ -31,7 +33,7 @@ Flask (back-end)
 Python (interpreter)
 Machine learning model (DecisionTreeClassifier)
 
-Testy:
+5. Testy:
 
 a. Scenariusz testów:
 Test poprawności klasyfikacji:
